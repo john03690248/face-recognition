@@ -18,7 +18,7 @@ global variables
 ENDPOINT = "industrial.api.ubidots.com"
 DEVICE_LABEL = "database"
 VARIABLE_LABEL = ["Ben", "Johnson", "Niezan"]
-TOKEN = "xxxx" # replace with your TOKEN
+TOKEN = "BBFF-slbNPRtue9UXuRoNUWwbYbTLcsMPIh" # replace with your TOKEN
 DELAY = 1  # Delay in seconds
 
 

@@ -56,11 +56,20 @@ def send(add_variable, account, password, gmail):
     post_var(payload)
     
     # # Simulates name values
-    # account = "xxx"
-    # password = "xxx"
-    # gmail = "xxx"
+    # account = "s1091418"
+    # password = "test1091418"
+    # gmail = "s1091418@mail.yzu.edu.tw"
     # # Builds Payload and topíc
     # payload = {VARIABLE_LABEL2: {"value" : 7, "context":{"account" : account, "password" : password, "gmail" : gmail}}}
+    # # Sends data
+    # post_var(payload)
+    
+    # # Simulates name values
+    # account = "s1091449"
+    # password = "test1091449"
+    # gmail = "s1091449@mail.yzu.edu.tw"
+    # # Builds Payload and topíc
+    # payload = {VARIABLE_LABEL3: {"value" : 0, "context":{"account" : account, "password" : password, "gmail" : gmail}}}
     # # Sends data
     # post_var(payload)
 

@@ -14,7 +14,7 @@ def send_mail(gmail, correction):
     cv2.imwrite('/home/pi/Desktop/IoT_final_proj/Face-Recognition-Raspberry-pi/gmail_photo/photo.jpg', image)
 
     content = MIMEMultipart()  #建立MIMEMultipart物件
-    content["from"] = "john03690248@gmail.com"  #寄件者
+    content["from"] = "aabb@gmail.com"  #寄件者
     content["to"] = gmail #收件者
     
     if not correction:
@@ -29,7 +29,7 @@ def send_mail(gmail, correction):
         try:
             smtp.ehlo()  # 驗證SMTP伺服器
             smtp.starttls()  # 建立加密傳輸
-            smtp.login("john03690248@gmail.com", "zdzephjwzjctcjzp")  # 登入寄件者gmail #zdzephjwzjctcjzp
+            smtp.login("aabb@gmail.com", "ccdd")  # 登入寄件者gmail #
             smtp.send_message(content)  # 寄送郵件
             #print("Complete!")
         except Exception as e:
